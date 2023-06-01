@@ -29,19 +29,18 @@ const addNewNote = (text = "") => {
     note.insertAdjacentHTML("afterbegin", htmlData);
    
 
-    // getting the References
+    
     const editButton = note.querySelector(".edit");
     const delButton = note.querySelector(".delete");
     const mainDiv = note.querySelector(".main");
     const textArea = note.querySelector("textarea");
 
-    // deleting the node
+ 
     delButton.addEventListener("click", () => {
         note.remove();
         updateLSData();
     });
 
-    // toggle using edit button
     textArea.value = text;
     mainDiv.innerHTML = text;
 
@@ -61,7 +60,7 @@ const addNewNote = (text = "") => {
     
 };
 
-// getting data back from localStorage
+
 const notes = JSON.parse(localStorage.getItem("notes"));
 
 if (notes) {

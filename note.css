@@ -32,7 +32,6 @@ body {
     transform: scale(0.98);
 }
 
-/* button style start  */
 
 .btn-div {
     position: fixed;
@@ -44,7 +43,6 @@ body {
     cursor: pointer;
 }
 
-/* <!-- SUbSCRIBE THAPA TECHNICAL YOUTUBE CHANNEL https://www.youtube.com/thapatechnical --> */
 
 button {
     position: relative;
@@ -93,7 +91,6 @@ button.learn-more .circle .icon.arrow {
     background: none;
 }
 
-/* <!-- SUbSCRIBE THAPA TECHNICAL YOUTUBE CHANNEL https://www.youtube.com/thapatechnical --> */
 
 button.learn-more .circle .icon.arrow::before {
     position: absolute;
@@ -135,7 +132,7 @@ button:hover .button-text {
     color: #fff;
 }
 
-/* button style end  */
+
 
 .main {
     padding: 2rem;
